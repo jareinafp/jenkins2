@@ -3,7 +3,7 @@
         stages {
             stage('Checkout') {
                 steps {
-                    git 'URL_DE_TU_REPOSITORIO_GITHUB'
+                    git 'https://github.com/jareinafp/jenkins2'
                 }
             }
             stage('Ejecutar Hola Mundo') {
