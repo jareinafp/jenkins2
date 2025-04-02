@@ -3,7 +3,7 @@
         stages {
             stage('Ejecutar Hola Mundo') {
                 steps {
-                    println 'Hola mundo!'
+                    println "Hola mundo!"
                 }
             }
         }
